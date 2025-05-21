@@ -1,0 +1,7 @@
+# conda 25.1.1 ; Python 3.12.9
+# conda create --name txt-extractor python=3.12.9
+
+Flask==3.1.0
+flask-cors==5.0.1
+openai==1.72.0
+python-dotenv==1.1.0
