@@ -1,8 +1,10 @@
 from flask import Flask
+from flask_cors import CORS
 from upload_file import upload_blueprint, configure_upload
 from response_image import response_blueprint
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route("/")
 def hello():
